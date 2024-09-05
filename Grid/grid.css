@@ -1,0 +1,82 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: 200px 100px 50px; */
+    grid-auto-rows: 200px;
+    gap: 10px;
+}
+
+.grid-item {
+    border: solid 1px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 10px;
+}
+
+.imagen-1 {
+    background-image: url(img/gato-caballero1.jpg);
+    background-size: 200px;
+}
+
+.imagen-2 {
+    background-image: url(img/gato-espacial.jpg);
+    background-size: 200px;
+}
+
+.imagen-3 {
+    background-image: url(img/gato-samurai1.jpg);
+    background-size: 200px;
+}
+
+.imagen-4 {
+    background-image: url(img/gato-soldado.webp);
+    background-size: 300px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
+
+body {
+    color: rgba(208, 0, 255, 0.607);
+    text-align: center;
+}
+
+.header {
+    grid-area: a;
+    background-image: url(img/gato-hechicero1.webp);
+    background-size: 200px;
+}
+
+.main {
+    grid-area: b;
+    background-image: url(img/gato-samurai1.jpg);
+    background-size: 300px;
+}
+
+.sidebar {
+    grid-area: c;
+    background-image: url(img/gato-espacial.jpg);
+    background-size: 300px;
+}
+
+.footer {
+    grid-area: d;
+    background-image: url(img/gato-soldado.webp);
+    background-size: 300px;
+}
+
+.grid-container3 {
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "a a a a"
+    "b b c c"
+    "b b c c"
+    "d d d d"
+}

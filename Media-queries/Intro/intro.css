@@ -1,0 +1,20 @@
+@media (min-width: 576px) {
+    body {
+        background-color: blue;
+        font-family: fantasy;
+    }
+}
+
+@media (min-width: 720px) {
+    body {
+        background-color: red;
+        font-family: monospace;
+    }
+}
+
+@media (min-width: 940px) {
+    body {
+        background-color: green;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

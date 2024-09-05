@@ -1,0 +1,15 @@
+body {
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+.hero {
+    display: flex;
+    background-image: url("img/gato-caballero1.jpg");
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
